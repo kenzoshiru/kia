@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+#navbar h1 {
+  float: left;
+  padding: 20px;
+}
+#navbar a {
+  color: white;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover {
+  background-color: #444;
+  color: orange;
+}
+#showcase {
+  background: url("20200701_04showcase.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+.container {
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+}
+.container h1 {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+.primary {
+  color: orange;
+}
+.container a {
+  display: inline-block;
+  background-color: #444;
+  font-size: 18px;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+.container p {
+  padding-bottom: 20px;
+}
+.container a:hover {
+  background-color: plum;
+}
+#td-info {
+  height: 500px;
+}
+.info-img {
+  background: url("20200701_02photo-1.jpg") no-repeat center center/cover;
+  min-height: 100%;
+  width: 50%;
+  float: left;
+}
+.info-text {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 100px;
+  background-color: aliceblue;
+  height: 100%;
+}
+.secondary {
+  color: aqua;
+}
+.lol {
+  background-color: blueviolet;
+}
+.lol:hover {
+  background-color: #444;
+  color: orange;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Library {
+  width: 33.33%;
+  float: left;
+  padding: 50px;
+  background-color: aliceblue;
+  height: 100%;
+}
+.res {
+  width: 33.33%;
+  float: left;
+  padding: 50px;
+  background-color: burlywood;
+}
+.fitnes {
+  width: 33.33%;
+  float: left;
+  padding: 50px;
+  background-color: aliceblue;
+}
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+.spe {
+  background-color: #444;
+}
+
+.img img {
+  width: 750px;
+  float: right;
+  border-radius: 50%;
+}
+.abc {
+  float: left;
+}
+#comments {
+  height: 50%;
+  background: url(20191201_32test-bg.jpg) no-repeat center center/cover;
+  padding: 5%;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 20px;
+}
+#comments h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#comments .comment img {
+  float: left;
+  width: 90px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.clr {
+  clear: both;
+}
+
+.container1 {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea {
+  height: 200px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+}
